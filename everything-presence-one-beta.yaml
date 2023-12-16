@@ -742,7 +742,3 @@ esp32_ble_tracker:
 
 bluetooth_proxy:
   active: true
-
-text_sensor:
-  - platform: ble_scanner
-    name: "BLE Devices Scanner"
