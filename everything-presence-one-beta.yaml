@@ -37,11 +37,6 @@ wifi:
   fast_connect: ${hidden_ssid}
   ap: {}
 
-improv_serial:
-
-esp32_improv:
-  authorizer: none
-
 dashboard_import:
   package_import_url: github://Crosenhain/everything-presence-one/everything-presence-one-beta.yaml@main
   import_full_config: false
