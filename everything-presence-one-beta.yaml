@@ -733,3 +733,16 @@ text_sensor:
   - platform: template
     name: "Distance Zones Status"
     id: "distance_zone_status"
+
+esp32_ble_tracker:
+  scan_parameters:
+    interval: 1100ms
+    window: 1100ms
+    active: true
+
+bluetooth_proxy:
+  active: true
+
+text_sensor:
+  - platform: ble_scanner
+    name: "BLE Devices Scanner"
