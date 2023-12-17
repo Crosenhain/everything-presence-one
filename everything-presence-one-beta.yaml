@@ -28,6 +28,7 @@ esp32:
     type: esp-idf
 
 logger:
+  level: WARNING
 
 api:
 
